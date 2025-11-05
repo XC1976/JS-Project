@@ -1,35 +1,43 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Le jeu dont vous êtes le héro</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <header>
-        <div class="flex justify-center align-center">
-            <img src="img/logo_.jpg" alt="logo">
-        </div>
-    </header>
-    <main>
-        <div class="flex justify-center align-center">
-            <img src="img/start-game.jpg" alt="début du jeu" id="scene-image">
-        </div>
-        <div>
-            <p>Inventaire</p>
-            <div id="inventory">
-
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Le jeu dont vous êtes le héro</title>
+        <link rel="stylesheet" href="assets/css/style.css" />
+    </head>
+    <body>
+        <div class="fade-overlay"></div>
+        <!--<header>
+            <div class="flex justify-center align-center">
+                <img src="img/logo_.jpg" alt="logo" />
             </div>
-        </div>
-        <div id="story">
-            <p id="story-text">Bienvenue dans le jeu dont vous êtes le héros <br>Pour commencer la partie cliquez sur "Start Game"</p>
-            <div id="choices"></div>
-        </div>
-    </main>
-    <footer>
-        <p>© Le Jeu Dont Vous Êtes le Héro</p>
-    </footer>
-    <script src="script.js"></script>
-</body>
+        </header>-->
+        <main>
+            <div class="flex justify-center align-center">
+                <img
+                    src="img/start-game.jpg"
+                    alt="début du jeu"
+                    id="scene-image"
+                />
+            </div>
+            <div id="notNecessary">
+                <p>INVENTAIRE</p>
+                <div id="inventory"></div>
+            </div>
+            <div id="story">
+                <p id="story-text">
+                    Bienvenue dans le jeu dont vous êtes le héros <br />Pour
+                    commencer la partie cliquez sur "Start Game"
+                </p>
+                <div id="choices"></div>
+            </div>
+        </main>
+        <!--<footer>
+            <p>© Le Jeu Dont Vous Êtes le Héro</p>
+        </footer>-->
+        <script src="assets/js/script.js"></script>
+        <script src="assets/js/text.js""></script>
+        <script src="assets/js/globalFunctions.js"></script>
+    </body>
 </html>

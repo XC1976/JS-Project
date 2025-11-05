@@ -1,3 +1,4 @@
+```===============================
 # Scène 1 : La forêt
 
 ## Contexte :
@@ -11,8 +12,8 @@ Vous avancez à pas silencieux dans la forêt, vos yeux scrutant chaque ombre. L
 ### Choix :
 - Aller à gauche vers la caverne obscure
 - Aller à droite vers la construction en pierre
-
-
+```===============================
+```================================
 # Scène 2 : La tour
 
 ## Contexte :
@@ -25,7 +26,8 @@ Vous vous tenez devant la tour. Ses murs sont couverts de lierre, et certaines p
 - À gauche : rentrer dans la tour
 - À droite : partir vers la clairière
 - En arrière : revenir vers la forêt
-
+```
+=====================================
 
 # Scène 3 : La clairière
 
@@ -35,7 +37,7 @@ Après avoir quitté la tour, le héros s’avance dans une clairière lugubre. 
 
 Vous avancez dans la clairière. Un lac noir se dessine devant vous, et l’air devient glacial. Soudain, le noir total vous engloutit. Une force invisible vous attire vers le lac…
 
-1. Si vous possédez la lumière magique :  
+1. Si vous possédez la lumière magique :
 une épée scintillante surgit du lac, et une femme fantomatique apparaît, vous poussant doucement vers l’arme. Votre cœur bat à tout rompre, et vous sentez la présence menaçante derrière vous.
 Au dernier moment, vous réussissez à vous écarter de la femme fantomatique, utilisant un mouvement rapide et précis.
 La femme s’empale sur l’épée à votre place, disparaissant dans un cri silencieux.
