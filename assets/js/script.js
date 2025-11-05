@@ -17,6 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
 // Initial click on start game then remove it
 mainImg.addEventListener("click", function initialStartGame(e) {
+  // Remove hover in CSS after the initial start screen
+  this.classList.add("no-hover");
   sceneForet();
 
   this.removeEventListener("click", initialStartGame);

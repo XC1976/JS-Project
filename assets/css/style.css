@@ -48,6 +48,13 @@ footer p {
     justify-content: center;
 }
 
+#scene-image:hover {
+    cursor: pointer;
+}
+.no-hover {
+    cursor: default !important;
+}
+
 .align-center {
     align-items: center;
 }
