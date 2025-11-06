@@ -2,7 +2,7 @@
 ====================
 Global variables
 ====================
-*/ 
+*/
 let inventory = [];
 
 const mainImg = document.getElementById("scene-image");
@@ -250,7 +250,7 @@ function sceneMagicienBonChoix() {
 function sceneGrotte() {
   reloadCode();
 
-  mainImg.setAttribute("src", "img/");
+  mainImg.setAttribute("src", "img/ogre.png");
   mainImg.setAttribute("alt", "grotte");
 
   mainText.textContent = texteGrotte;
@@ -288,6 +288,6 @@ function sceneOgre() {
 
   mainText.textContent = texteOgreVaincu;
 
-  mainImg.setAttribute("src", "img/victory.jpg");
+  mainImg.setAttribute("src", "img/victory.gif");
   mainImg.setAttribute("alt", "Victory");
 }
