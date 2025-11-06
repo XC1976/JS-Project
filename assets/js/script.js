@@ -81,9 +81,15 @@ function sceneTour() {
   });
 
   const rightChoiceTower = document.createElement("p");
-  rightChoiceTower.textContent = "Droite => partir vers la clairière";
+  rightChoiceTower.textContent = inventory.includes("Epee")
+    ? "Droite => Partir vers la bâtiment en bois"
+    : "Droite => partir vers la clairière";
   rightChoiceTower.addEventListener("click", (e) => {
-    scenePrairie();
+    if (inventory.includes("Epee")) {
+      sceneBat();
+    } else {
+      scenePrairie();
+    }
   });
 
   const returnBackTower = document.createElement("p");
@@ -92,8 +98,14 @@ function sceneTour() {
     sceneForet();
   });
 
-  choicesText.appendChild(leftChoiceTower);
-  choicesText.appendChild(rightChoiceTower);
+  if (!inventory.includes("Lumiere")) {
+    choicesText.appendChild(leftChoiceTower);
+  }
+
+  if (!(inventory.includes("Epee") && inventory.includes("Bouclier"))) {
+    choicesText.appendChild(rightChoiceTower);
+  }
+
   choicesText.appendChild(returnBackTower);
 }
 
@@ -241,7 +253,9 @@ function sceneMagicienBonChoix() {
   const goPlain = document.createElement("p");
   goPlain.textContent =
     "Aller vers la plaine, un nouveau chemin qui pourrait mener à d’autres surprises.";
-  goPlain.addEventListener("click", (e) => {});
+  goPlain.addEventListener("click", (e) => {
+    scenePrairie();
+  });
 
   choicesText.appendChild(goForest);
   choicesText.appendChild(goPlain);
