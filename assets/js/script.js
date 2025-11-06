@@ -145,7 +145,7 @@ function sceneBat() {
   mainImg.setAttribute("src", "img/batiment.jpg");
   mainImg.setAttribute("alt", "batiment");
 
-  mainText.textContent = texteBat;
+  mainText.innerHTML = texteBat;
 
   choicesText.innerHTML = "";
 
@@ -196,7 +196,7 @@ function sceneMagicien() {
   mainImg.setAttribute("src", "img/magicien.jpg");
   mainImg.setAttribute("alt", "magicien");
 
-  mainText.textContent = texteMagicien;
+  mainText.innerHTML = texteMagicien;
 
   choicesText.innerHTML = "";
 
